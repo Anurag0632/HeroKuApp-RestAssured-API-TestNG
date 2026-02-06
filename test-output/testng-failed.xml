@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.TelecomProject">
+        <methods>
+          <include name="testCase_02_GetUserProfile_GET"/>
+          <include name="testCase_09_UpdateContact_PATCH"/>
+          <include name="testCase_08_FullUpdateContact_PUT"/>
+          <include name="testCase_04_LogInUser_POST"/>
+          <include name="testCase_07_GetContact_GET"/>
+          <include name="testCase_05_AddContact_POST"/>
+          <include name="testCase_01_AddNewUser_POST"/>
+          <include name="testCase_06_GetContactList_GET"/>
+          <include name="testCase_03_UpdateUser_PATCH"/>
+          <include name="testCase_10_LogOutUser_POST"/>
+        </methods>
+      </class> <!-- tests.TelecomProject -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

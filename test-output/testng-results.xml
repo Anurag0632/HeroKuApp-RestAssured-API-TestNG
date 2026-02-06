@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-06T05:01:26 IST" name="Default suite" finished-at="2026-02-06T05:01:51 IST" duration-ms="24703">
+    <groups>
+    </groups>
+    <test started-at="2026-02-06T05:01:26 IST" name="Default test" finished-at="2026-02-06T05:01:51 IST" duration-ms="24703">
+      <class name="tests.TelecomProject">
+        <test-method signature="testCase_01_AddNewUser_POST()[pri:1, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:26 IST" name="testCase_01_AddNewUser_POST" finished-at="2026-02-06T05:01:31 IST" duration-ms="4979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_01_AddNewUser_POST -->
+        <test-method signature="testCase_02_GetUserProfile_GET()[pri:2, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:31 IST" name="testCase_02_GetUserProfile_GET" finished-at="2026-02-06T05:01:33 IST" depends-on-methods="tests.TelecomProject.testCase_01_AddNewUser_POST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_02_GetUserProfile_GET -->
+        <test-method signature="testCase_03_UpdateUser_PATCH()[pri:3, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:33 IST" name="testCase_03_UpdateUser_PATCH" finished-at="2026-02-06T05:01:36 IST" depends-on-methods="tests.TelecomProject.testCase_02_GetUserProfile_GET" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_03_UpdateUser_PATCH -->
+        <test-method signature="testCase_04_LogInUser_POST()[pri:4, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:36 IST" name="testCase_04_LogInUser_POST" finished-at="2026-02-06T05:01:38 IST" depends-on-methods="tests.TelecomProject.testCase_03_UpdateUser_PATCH" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_04_LogInUser_POST -->
+        <test-method signature="testCase_05_AddContact_POST()[pri:5, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:38 IST" name="testCase_05_AddContact_POST" finished-at="2026-02-06T05:01:40 IST" depends-on-methods="tests.TelecomProject.testCase_04_LogInUser_POST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_05_AddContact_POST -->
+        <test-method signature="testCase_06_GetContactList_GET()[pri:6, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:40 IST" name="testCase_06_GetContactList_GET" finished-at="2026-02-06T05:01:42 IST" depends-on-methods="tests.TelecomProject.testCase_05_AddContact_POST" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_06_GetContactList_GET -->
+        <test-method signature="testCase_07_GetContact_GET()[pri:7, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:42 IST" name="testCase_07_GetContact_GET" finished-at="2026-02-06T05:01:45 IST" depends-on-methods="tests.TelecomProject.testCase_06_GetContactList_GET" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_07_GetContact_GET -->
+        <test-method signature="testCase_08_FullUpdateContact_PUT()[pri:8, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:45 IST" name="testCase_08_FullUpdateContact_PUT" finished-at="2026-02-06T05:01:47 IST" depends-on-methods="tests.TelecomProject.testCase_07_GetContact_GET" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_08_FullUpdateContact_PUT -->
+        <test-method signature="testCase_09_UpdateContact_PATCH()[pri:9, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:47 IST" name="testCase_09_UpdateContact_PATCH" finished-at="2026-02-06T05:01:49 IST" depends-on-methods="tests.TelecomProject.testCase_08_FullUpdateContact_PUT" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_09_UpdateContact_PATCH -->
+        <test-method signature="testCase_10_LogOutUser_POST()[pri:10, instance:tests.TelecomProject@8dbdac1]" started-at="2026-02-06T05:01:49 IST" name="testCase_10_LogOutUser_POST" finished-at="2026-02-06T05:01:51 IST" depends-on-methods="tests.TelecomProject.testCase_09_UpdateContact_PATCH" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_10_LogOutUser_POST -->
+      </class> <!-- tests.TelecomProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
