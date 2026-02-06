@@ -6,6 +6,13 @@ It covers request and response validation, status code verification, positive an
 
 This framework demonstrates real-world API automation practices including clean project structure, reusable utilities, and reporting.
 
+# API Test Case Documentation
+
+API test cases are also documented in Excel format.  
+Please download the file to view complete test cases.
+
+📁 Location:
+API test case document/Project3_Telecom_API.xlsx
 
 ##  Tech Stack
 - Language: Java  
